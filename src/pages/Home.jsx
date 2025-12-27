@@ -24,7 +24,6 @@ const Home = () => {
     }
   };
 
-  // --- LISTA DE JOGOS ---
   const jogos = [
     { 
       id: 'snes-mario', 
@@ -62,6 +61,13 @@ const Home = () => {
       console: 'MEGA DRIVE', 
       capa: '/Streets_of_Rage.jpeg' 
     },
+  
+    { 
+      id: 'n64-mario', 
+      nome: 'Super Mario 64', 
+      console: 'NINTENDO 64', 
+      capa: '/Super_Mario_64.jpg' 
+    },
     { 
       id: 'gba-zelda', 
       nome: 'The Legend of Zelda: The Minish Cap', 
@@ -79,7 +85,7 @@ const Home = () => {
       nome: 'Pokémon Silver', 
       console: 'GAME BOY', 
       capa: '/pokemon-silver.jpg' 
-    },
+    }
   ];
 
   const jogarAleatorio = () => {
@@ -106,11 +112,8 @@ const Home = () => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: 'linear-gradient(to bottom, #121212, #1a1a2e)', fontFamily: '"Inter", sans-serif' }}>
-      
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px', width: '100%', flex: 1 }}>
-        
         <header style={{ textAlign: 'center', marginBottom: '40px' }}>
-          {/* CORRIGIDO AQUI: mudei para .jpg para bater com seu arquivo */}
           <img src="/logo.jpg" alt="Sopra Fitas Logo" style={{ maxWidth: '350px', width: '100%', height: 'auto', filter: 'drop-shadow(0 0 15px rgba(255, 165, 0, 0.2))' }} />
 
           <div style={{ marginTop: '30px', display: 'flex', justifyContent: 'center', gap: '10px', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>

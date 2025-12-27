@@ -67,10 +67,9 @@ const GameRoom = () => {
       capa: '/ultimate-mortal-kombat-3-capa.webp',     
       descricao: 'A versão definitiva de MK3! Novos lutadores (Scorpion, Kitana), jogabilidade mais rápida e novos Brutalities.'
     },
-    // GOLDEN AXE - Apontando para o arquivo .md
     'md-goldenaxe': {
       id: 'md-goldenaxe',
-      url: '/goldenaxe.md',   // <--- SEU ARQUIVO .MD AQUI
+      url: '/goldenaxe.md',
       core: 'segaMD',
       nome: 'Golden Axe',
       ano: '1989',
@@ -78,16 +77,26 @@ const GameRoom = () => {
       capa: '/goldenaxe.jpg',
       descricao: 'Em um mundo de fantasia medieval, escolha entre um bárbaro, uma amazona ou um anão e lute contra as forças do malvado Death Adder. Um clássico dos beat-em-up!'
     },
-    // STREETS OF RAGE - Apontando para o arquivo .md
     'md-streetofrage': {
       id: 'md-streetofrage',
-      url: '/streetofrage.md',      // <--- SEU ARQUIVO .MD AQUI
+      url: '/streetofrage.md',
       core: 'segaMD',                
       nome: 'Streets of Rage',
       ano: '1991',
       fabricante: 'SEGA',
       capa: '/Streets_of_Rage.jpeg', 
       descricao: 'A cidade foi tomada por uma poderosa organização criminosa. Jogue como Axel, Blaze ou Adam e limpe as ruas na base da pancadaria! Trilha sonora lendária de Yuzo Koshiro.'
+    },
+    // CORRIGIDO AQUI TAMBÉM
+    'n64-mario': {
+      id: 'n64-mario',
+      url: '/mario64.z64',
+      core: 'n64',
+      nome: 'Super Mario 64',
+      ano: '1996',
+      fabricante: 'Nintendo',
+      capa: '/Super_Mario_64.jpg', 
+      descricao: 'A revolução do mundo dos games! O primeiro Mario em 3D definiu o gênero de plataforma. Explore o castelo da Peach, pule em quadros e colete as estrelas.'
     },
     'gba-zelda': {
       id: 'gba-zelda',
